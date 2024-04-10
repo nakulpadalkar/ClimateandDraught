@@ -1,10 +1,11 @@
 
-
+# Regression Analysis on Climate Data
 ## Importing Necessary Liberaries
 
 ```{python}
 import pandas as pd
 import plotly.express as px
+
 ```
 
 ## Load the dataset
@@ -16,6 +17,7 @@ df.head()
 ```
 
 ### Missing Values and Data Types
+
 ```{python}
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -29,20 +31,115 @@ plt.show()
 ```
 
 ## Data Preprocessing
-# Assuming 'lat' and 'long' are the column names for latitude and longitude in your dataset
-# Creating an interactive map to visualize the park location
-fig = px.scatter_geo(df,
-                     lat='lat',
-                     lon='long',
-                     scope='usa',
-                     title='Utah National Parks Geographic Overview')
+
+```{python}
+from urllib.request import urlopen
+import json
+import plotly.express as px
+
+# Load your DataFrame (as an example)
+df = pd.DataFrame({
+    'Park Name': ['Arches', 'Canyonlands', 'Hovenweep', 'Natural Bridges'],
+    'Avg_Temp': [15, 12, 10, 13],  # Average temperature or temperature variation
+    'Park_ID': ['arches', 'canyonlands', 'hovenweep', 'natural_bridges']  # These should match IDs in your GeoJSON
+})
+
+# Load your GeoJSON data
+with urlopen('https://geojson.io/#map=7.25/38.411/-111.711.geojson') as response:
+    parks_geojson = json.load(response)
+
+# Assuming your GeoJSON's features have an 'id' or property that matches 'Park_ID' in `df`
+fig = px.choropleth(df,
+                    geojson=parks_geojson,
+                    locations='Park_ID',  # Column in df that matches IDs in GeoJSON
+                    color='Avg_Temp',
+                    color_continuous_scale="thermal",
+                    scope="usa",
+                    title='Utah National Parks Temperature Variation'
+                   )
 fig.update_geos(projection_type="natural earth")
-fig.update_layout(showlegend=True)
+fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 fig.show()
 
-# For the initial EDA on climate variables vs. vegetation coverage
-# Let's create scatter plots for each climate variable against vegetation cover
-# Replace 'vegetation_cover' with the actual column name for vegetation cover in your dataset
-for column in ['soil_moisture', 'temperature', 'precipitation']:
-    fig = px.scatter(df, x=column, y='vegetation_cover', title=f'Vegetation Cover vs. {column.capitalize()}')
-    fig.show()
+```
+
+## EDA
+
+```{python}
+#| echo: false
+#| eval: false
+#| 
+import pandas as pd
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+# Assuming df is your DataFrame loaded with the dataset
+# Calculate summary statistics for vegetation cover variables
+vegetation_metrics = ['treecanopy', 'Ann_Herb', 'Bare', 'Herb', 'Litter', 'Shrub']
+summary_stats = df[vegetation_metrics].describe()
+
+print("Summary Statistics for Vegetation Cover Variables:")
+print(summary_stats)
+
+# Correlation analysis between climate variables and vegetation cover
+climate_variables = ['soil_moisture', 'temperature', 'precipitation']
+correlations = df[vegetation_metrics + climate_variables].corr()
+print("\nCorrelation matrix:")
+print(correlations.loc[climate_variables, vegetation_metrics])
+
+# Visualization: Creating scatter plots for each vegetation type vs. a climate variable
+# This example shows vegetation cover metrics vs. precipitation. Repeat for other climate variables as needed.
+fig = make_subplots(rows=3, cols=2, subplot_titles=vegetation_metrics)
+
+for i, veg_metric in enumerate(vegetation_metrics, 1):
+    fig.add_trace(
+        go.Scatter(x=df['precipitation'], y=df[veg_metric], mode='markers', name=veg_metric),
+        row=(i-1)//2 + 1, col=(i-1)%2 + 1
+    )
+
+fig.update_layout(height=1200, width=800, title_text="Vegetation Cover Metrics vs. Precipitation")
+fig.show()
+
+```
+
+```{python}
+import pandas as pd
+import plotly.graph_objects as go
+import plotly.offline as pyo
+
+pyo.init_notebook_mode(connected=True)
+
+# Assuming df is your DataFrame
+# Engineering features
+df['Annual_Soil_Moisture'] = df[['VWC_Winter_whole', 'VWC_Spring_whole', 'VWC_Summer_whole', 'VWC_Fall_whole']].mean(axis=1)
+df['Annual_Temperature'] = df['T_Annual']
+df['Annual_Precipitation'] = df['PPT_Annual']
+
+vegetation_variables = ['treecanopy', 'Ann_Herb', 'Bare', 'Herb', 'Litter', 'Shrub']
+
+# Set up the matplotlib figure
+for veg_var in vegetation_variables:
+    # Precipitation vs Vegetation
+    plt.figure(figsize=(8, 5.5))
+    sns.scatterplot(data=df, x='Annual_Precipitation', y=veg_var, color='#E8B989')
+    plt.title(f'Annual Precipitation vs {veg_var}')
+    plt.xlabel('Annual Precipitation (mm)')
+    plt.ylabel(f'{veg_var} Coverage')
+    plt.show()
+
+    # Temperature vs Vegetation
+    plt.figure(figsize=(8, 5.5))
+    sns.scatterplot(data=df, x='Annual_Temperature', y=veg_var, color='#E8B989')
+    plt.title(f'Annual Temperature vs {veg_var}')
+    plt.xlabel('Annual Temperature (°C)')
+    plt.ylabel(f'{veg_var} Coverage')
+    plt.show()
+
+    # Soil Moisture vs Vegetation
+    plt.figure(figsize=(8, 5.5))
+    sns.scatterplot(data=df, x='Annual_Soil_Moisture', y=veg_var, color='#E8B989')
+    plt.title(f'Annual Soil Moisture vs {veg_var}')
+    plt.xlabel('Annual Soil Moisture')
+    plt.ylabel(f'{veg_var} Coverage')
+    plt.show()
+```

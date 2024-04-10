@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Green Futures: Charting Climate Adaptation in Utah’s Parklands",
+    "section": "",
+    "text": "Responding to climate change, particularly in the fragile ecosystems of Southeast Utah’s National Parks, demands both urgency and meticulous planning. The Southeast Utah Group, encompassing Arches National Park, Canyonlands National Park, Hovenweep National Monument, and Natural Bridges National Monument, is at the forefront of grappling with these challenges. Spearheaded by experts Terry T. Fisk and David Thoma, the group’s recent endeavors offer a glimpse into the complexity of climate adaptation and the proactive steps being undertaken.\nThe Southwest U.S., characterized by its pronounced long-term drought and diminishing water availability, is a vivid testament to climate change’s grip on the region. The Southeast Utah parks, situated on the Colorado Plateau, are witnessing shifts in climate conditions that veer away from historical norms, underscoring a drier future laden with challenges. The prospect of “megadroughts” surpassing any droughts in recorded history spells a drastic upheaval for the region’s natural and human systems, akin to the disruption faced by the Chacoan Culture and other indigenous communities centuries ago.\n\n\n\nPark locations in southeast Utah and southwest Colorado for participants in Southeast Utah Group Climate Change Workshop December 2018\n\n\nFaced with the enormity of these changes, the Southeast Utah Group is forging ahead with a multifaceted approach to climate adaptation. Recognizing the limited options available to the species within these parks—adapt, migrate, or perish—the team is focused on devising strategies that encompass resisting, accepting, or directing change. This approach is tailored to manage the outcomes for the parks’ biodiversity and cultural heritage, guided by a blend of values, policy, and law.\nA pivotal moment in this journey was the Southeast Utah Group Climate Change Workshop in December 2018, which convened 35 individuals from various organizations. The workshop’s objectives were ambitious yet critical: to build a shared vision for climate adaptation, refine conservation targets, and identify viable management options. The workshop underscored the importance of understanding climate change vulnerability assessments within the Climate Smart Conservation framework, promoting a structured assessment of adaptation options.\nThis collaborative spirit extended into defining goals for vegetation community conservation amidst rising aridity, focusing initially on grasslands, followed by shrublands and pinyon-juniper woodlands. The engagement led to the identification of high-priority research areas to understand climate impacts and inform decision-making processes.\nResearch initiatives, bolstered by partnerships and funding, are central to this adaptive management approach. Projects undertaken by the Southeast Utah Group and the USGS Southwest Biological Research Center are poised to quantify expected physical changes across landscapes, understand the effects of aridification, and implement forecasting to guide resource management. These endeavors aim to integrate research findings into management practices, develop tools for adaptive strategies, and ultimately, mitigate the impacts of climate change.\nThe journey of the Southeast Utah Group illustrates a proactive and collaborative stance towards climate change adaptation. By combining scientific research with strategic planning and community involvement, there’s a pathway being carved out to navigate the challenges posed by climate change. This narrative, though grounded in the specificity of Southeast Utah’s parks, echoes a broader imperative: the need for concerted efforts in understanding, preparing for, and mitigating the impacts of climate change on our natural world."
+  },
+  {
+    "objectID": "regression.html",
+    "href": "regression.html",
+    "title": "Regression Analysis on Climate Data",
+    "section": "",
+    "text": "import pandas as pd\nimport plotly.express as px"
+  },
+  {
+    "objectID": "regression.html#load-the-dataset",
+    "href": "regression.html#load-the-dataset",
+    "title": "Regression Analysis on Climate Data",
+    "section": "2 Load the dataset",
+    "text": "2 Load the dataset\n\n# Load the dataset\ndf = pd.read_csv('./processed_data/NABR_historic.csv')\ndf.drop(columns=['TimePeriod', 'RCP'], axis=1, inplace=True)\ndf.head()\n\n\n\n\n\n\n\n\n\nlong\nlat\nyear\nscenario\ntreecanopy\nAnn_Herb\nBare\nHerb\nLitter\nShrub\n...\nPPT_Annual\nT_Winter\nT_Summer\nT_Annual\nTmax_Summer\nTmin_Winter\nVWC_Winter_whole\nVWC_Spring_whole\nVWC_Summer_whole\nVWC_Fall_whole\n\n\n\n\n0\n-110.0472\n37.60413\n1980\nsc1\n0\n0\n84\n5\n11\n7\n...\n13.79\n0.964835\n23.15924\n23.159240\n37.05\nNaN\nNaN\nNaN\nNaN\nNaN\n\n\n1\n-110.0472\n37.60413\n1980\nsc1\n0\n0\n84\n5\n11\n7\n...\n2.69\n0.964835\n23.15924\n0.964835\n37.05\nNaN\nNaN\nNaN\nNaN\nNaN\n\n\n2\n-110.0472\n37.60413\n1980\nsc1\n0\n0\n84\n5\n11\n7\n...\n13.79\n0.964835\n23.15924\n0.964835\n37.05\nNaN\nNaN\nNaN\nNaN\nNaN\n\n\n3\n-110.0472\n37.60413\n1980\nsc1\n0\n0\n84\n5\n11\n7\n...\n2.69\n0.964835\n23.15924\n23.159240\n37.05\nNaN\nNaN\nNaN\nNaN\nNaN\n\n\n4\n-110.0472\n37.60413\n1980\nsc1\n0\n0\n84\n5\n11\n7\n...\nNaN\nNaN\nNaN\nNaN\nNaN\n-12.45\n0.113447\n0.096831\n0.041876\n0.052298\n\n\n\n\n5 rows × 27 columns\n\n\n\n\n\n2.1 Missing Values and Data Types\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Visualize missing values\nplt.figure(figsize=(15, 10))\nsns.heatmap(df.drop(columns=['lat', 'long', 'year', 'scenario','treecanopy', 'Ann_Herb', 'Bare', 'Litter', 'Shrub'], axis=1).isnull(), cbar=False, cmap='viridis')\nplt.title('Missing Data Heatmap', fontsize=16, fontweight='bold', loc='left')\nplt.xticks(rotation=45) \nplt.show()"
+  },
+  {
+    "objectID": "regression.html#data-preprocessing",
+    "href": "regression.html#data-preprocessing",
+    "title": "Regression Analysis on Climate Data",
+    "section": "3 Data Preprocessing",
+    "text": "3 Data Preprocessing\n\n# Assuming 'lat' and 'long' are the column names for latitude and longitude in your dataset\n# Creating an interactive map to visualize the park location\nfig = px.scatter_geo(df,\n                     lat='lat',\n                     lon='long',\n                     scope='usa',\n                     title='Utah National Parks Geographic Overview')\nfig.update_geos(projection_type=\"natural earth\")\nfig.update_layout(showlegend=True)\nfig.show()"
+  },
+  {
+    "objectID": "regression.html#importing-necessary-liberaries",
+    "href": "regression.html#importing-necessary-liberaries",
+    "title": "Regression Analysis on Climate Data",
+    "section": "",
+    "text": "import pandas as pd\nimport plotly.express as px"
+  },
+  {
+    "objectID": "regression.html#eda",
+    "href": "regression.html#eda",
+    "title": "Regression Analysis on Climate Data",
+    "section": "4 EDA",
+    "text": "4 EDA\n\nimport pandas as pd\nimport plotly.graph_objects as go\nimport plotly.offline as pyo\n\npyo.init_notebook_mode(connected=True)\n\n# Assuming df is your DataFrame\n# Engineering features\ndf['Annual_Soil_Moisture'] = df[['VWC_Winter_whole', 'VWC_Spring_whole', 'VWC_Summer_whole', 'VWC_Fall_whole']].mean(axis=1)\ndf['Annual_Temperature'] = df['T_Annual']\ndf['Annual_Precipitation'] = df['PPT_Annual']\n\nvegetation_variables = ['treecanopy', 'Ann_Herb', 'Bare', 'Herb', 'Litter', 'Shrub']\n\n# Set up the matplotlib figure\nfor veg_var in vegetation_variables:\n    # Precipitation vs Vegetation\n    plt.figure(figsize=(8, 5.5))\n    sns.scatterplot(data=df, x='Annual_Precipitation', y=veg_var, color='#E8B989')\n    plt.title(f'Annual Precipitation vs {veg_var}')\n    plt.xlabel('Annual Precipitation (mm)')\n    plt.ylabel(f'{veg_var} Coverage')\n    plt.show()\n\n    # Temperature vs Vegetation\n    plt.figure(figsize=(8, 5.5))\n    sns.scatterplot(data=df, x='Annual_Temperature', y=veg_var, color='#E8B989')\n    plt.title(f'Annual Temperature vs {veg_var}')\n    plt.xlabel('Annual Temperature (°C)')\n    plt.ylabel(f'{veg_var} Coverage')\n    plt.show()\n\n    # Soil Moisture vs Vegetation\n    plt.figure(figsize=(8, 5.5))\n    sns.scatterplot(data=df, x='Annual_Soil_Moisture', y=veg_var, color='#E8B989')\n    plt.title(f'Annual Soil Moisture vs {veg_var}')\n    plt.xlabel('Annual Soil Moisture')\n    plt.ylabel(f'{veg_var} Coverage')\n    plt.show()"
+  }
+]
