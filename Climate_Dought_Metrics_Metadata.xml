@@ -1,0 +1,1743 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Jessica A Hartsell</origin>
+        <origin>Daniel R Schlaepfer</origin>
+        <origin>John B Bradford</origin>
+        <pubdate>20220302</pubdate>
+        <title>Climate and drought adaptation: historical and projected future exposure metrics for Southeastern Utah Group National Parks</title>
+        <geoform>tabular data (txt)</geoform>
+        <pubinfo>
+          <pubplace>Flagstaff, AZ</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P9O0FBVY</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>John B. Bradford</origin>
+            <origin>Caroline A. Havrilla</origin>
+            <origin>Jessica A. Hartsell</origin>
+            <origin>Daniel R. Schlaepfer</origin>
+            <origin>Molly M. McCormick</origin>
+            <origin>Seth Munson</origin>
+            <origin>Charles B. Yackulic</origin>
+            <origin>Terry T. Fisk</origin>
+            <origin>David Thoma</origin>
+            <origin>Dusty Perkins</origin>
+            <origin>Dana Witwicki</origin>
+            <origin>Matt VanScoyoc</origin>
+            <origin>Mike Duniway</origin>
+            <origin>Sasha Reed</origin>
+            <pubdate>2022</pubdate>
+            <title>Southeast Utah Group climate and drought adaptation report: exposure and perennial grass sensitivity</title>
+            <geoform>report</geoform>
+            <pubinfo>
+              <pubplace>TBD</pubplace>
+              <publish>TBD</publish>
+            </pubinfo>
+            <onlink>https://doi.org/XXXX</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data were compiled to evaluate the magnitude and direction of change from historical conditions in climate metrics across the Southwestern Utah Group (SEUG) of National Parks. Objective(s) of our study were to quantify the magnitude and direction of change from historical conditions in climate metrics across SEUG parks at a meaningful scale for land managers and practitioners. These data represent the historical and projected future average temperatures for two emission scenarios and 12 global circulation models. Included are the annual average temperatures and the average temperatures for each season. These data were created by sampling representative locations across each National Park unit and simulating daily variables using the SOILWAT2 ecosystem water-balance model. These data were created by a collaboration between the U.S. Geological Survey - Southwest Biological Science Center and the National Park Service SEUG to model the historical and projected future climate variables for each national park unit. These data can be used to evaluate future climate conditions in the SEUG National Park units for management actions.</abstract>
+      <purpose>The purpose of these data are to quantify the magnitude and direction of change in climate metrics from historical baseline conditions. These data were created to inform land managers and practitioners in the Southeastern Utah Group (SEUG) of National Park Units the magnitude and direction of change in climate metrics at a scale useful to them. These data can be used to inform management practices, make species selections for restoration and to generally understand the changing climate across SEUG National Park units.</purpose>
+      <supplinf>These data provide site based historically observed and projected future climate conditions across the Southeastern Utah Group of National Parks. These data can be used to explore projected changes across the national park units. These data include projections for two different RCPs and 12 different GCMs. It would be inappropriate to expand the scope of these projections outside of the sample area. Future decision making and changes in global emissions may alter the accuracy of these projections.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1980</begdate>
+          <enddate>2099</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-110.2650</westbc>
+        <eastbc>-108.6850</eastbc>
+        <northbc>38.8650</northbc>
+        <southbc>37.2650</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>air temperature</themekey>
+        <themekey>atmospheric and climatic processes</themekey>
+        <themekey>atmospheric circulation</themekey>
+        <themekey>climate change</themekey>
+        <themekey>ecosystem management</themekey>
+        <themekey>effects of climate change</themekey>
+        <themekey>modeling</themekey>
+        <themekey>mathematical modeling</themekey>
+        <themekey>mathematical simulation</themekey>
+        <themekey>modeling</themekey>
+        <themekey>natural resource management</themekey>
+        <themekey>seasons</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>biota</themekey>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+        <themekey>environment</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:61a6952fd34eb622f6978d9f</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS information products</themekt>
+        <themekey>data release</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>baseline conditions</themekey>
+        <themekey>historical conditions</themekey>
+        <themekey>climate metrics</themekey>
+        <themekey>emission scenarios</themekey>
+        <themekey>future climate conditions</themekey>
+        <themekey>global circulation models</themekey>
+        <themekey>historical average temperatures</themekey>
+        <themekey>historical climate variables</themekey>
+        <themekey>land managers</themekey>
+        <themekey>National Monument</themekey>
+        <themekey>National Park</themekey>
+        <themekey>point sampling</themekey>
+        <themekey>projected future average temperatures</themekey>
+        <themekey>projected future climate variables</themekey>
+        <themekey>representative concentration pathway 4.5</themekey>
+        <themekey>representative concentration pathway 8.5</themekey>
+        <themekey>SOILWAT2</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Arches National Park</placekey>
+        <placekey>Canyonlands National Park</placekey>
+        <placekey>Colorado Plateau</placekey>
+        <placekey>Hovenweep National Monument</placekey>
+        <placekey>Natural Bridges National Monument</placekey>
+        <placekey>Utah</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>southcentral Utah</placekey>
+        <placekey>southeast Utah</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>John B Bradford</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Research Ecologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Mail Stop 9394, 2255 North Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>928-556-7300</cntvoice>
+        <cntemail>jbradford@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>The data authors would like to acknowledge the support of the U.S. Geological Survey, Southwest Biological Science Center, Southern Colorado Plateau Monitoring Network, and Northern Colorado Plateau Monitoring Network.</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>John T. Abatzoglou</origin>
+        <origin>Timothy J. Brown</origin>
+        <pubdate>2012</pubdate>
+        <title>A comparison of statistical downscaling methods suited for wildfire applications</title>
+        <pubinfo>
+          <pubplace>Royal Meteorological Society - RMetS (online)</pubplace>
+          <publish>International Journal of Climatology</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1098/rspa.1948.0037</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Budiman B. Minasny</origin>
+        <origin>Alexander McBratney</origin>
+        <pubdate>2006</pubdate>
+        <title>Chapter 12 Latin Hypercube Sampling as a Tool for Digital Soil Mapping</title>
+        <pubinfo>
+          <pubplace>ScienceDirect (online)</pubplace>
+          <publish>Developments in Soil Science</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1016/S0166-2481(06)31012-4</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Travis W. Nauman</origin>
+        <origin>Michael C. Duniway</origin>
+        <pubdate>2020</pubdate>
+        <title>A hybrid approach for predictive soil property mapping using conventional soil survey data</title>
+        <pubinfo>
+          <pubplace>Soil Science Society of America (online)</pubplace>
+          <publish>Soil Science Society of America Journal</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1002/saj2.20080</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>H.L. Penman</origin>
+        <pubdate>2020</pubdate>
+        <title>Natural evaporation from open water, bare soil and grass</title>
+        <pubinfo>
+          <pubplace>The Royal Society Publishing (online)</pubplace>
+          <publish>Proceedings of the Royal Society of London A</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1098/rspa.1948.0037</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Suranjana Saha</origin>
+        <origin>and 51 additional co-authors</origin>
+        <pubdate>2010</pubdate>
+        <title>The NCEP climate forecast system reanalysis</title>
+        <pubinfo>
+          <pubplace>American Meteorological Society (online)</pubplace>
+          <publish>Bulletin of the American Meteorological Society</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.1175/2010BAMS3001.1</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Park Service</origin>
+            <pubdate>2009</pubdate>
+            <title>Vegetation Mapping Inventory Project for Arches National Park</title>
+            <geoform>ESRI geodatabase</geoform>
+            <pubinfo>
+              <pubplace>Fort Collins, CO</pubplace>
+              <publish>U.S. Department of the Interior</publish>
+            </pubinfo>
+            <onlink>https://www.nps.gov/im/vmi-arch.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital vector data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20010101</begdate>
+              <enddate>20091231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>ARCH vegetation</srccitea>
+        <srccontr>These data were used to class the vegetation in Arches National Park into classes.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Park Service</origin>
+            <pubdate>2012</pubdate>
+            <title>Vegetation Mapping Inventory Project for Canyonlands National Park</title>
+            <geoform>ESRI geodatabase</geoform>
+            <pubinfo>
+              <pubplace>Fort Collins, CO</pubplace>
+              <publish>U.S. Department of the Interior</publish>
+            </pubinfo>
+            <onlink>https://www.nps.gov/im/vmi-CANY.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital vector data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20030101</begdate>
+              <enddate>20091231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CANY vegetation</srccitea>
+        <srccontr>These data were used to class the vegetation zones in Canyonlands National Park into generalized vegetation types.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Park Service</origin>
+            <pubdate>2008</pubdate>
+            <title>Vegetation Mapping Inventory Project for Hovenweep National Monument</title>
+            <geoform>ESRI geodatabase</geoform>
+            <pubinfo>
+              <pubplace>Fort Collins, CO</pubplace>
+              <publish>U.S. Department of the Interior</publish>
+            </pubinfo>
+            <onlink>https://www.nps.gov/im/vmi-HOVE.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital vector data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20030101</begdate>
+              <enddate>20071231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>HOVE vegetation</srccitea>
+        <srccontr>These data were used to class the vegetation in Hovenweep National Monument into broad types.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Park Service</origin>
+            <pubdate>2008</pubdate>
+            <title>Vegetation Mapping Inventory Project for Natural Bridges National Monument</title>
+            <geoform>ESRI geodatabase</geoform>
+            <pubinfo>
+              <pubplace>Fort Collins, CO</pubplace>
+              <publish>U.S. Department of the Interior</publish>
+            </pubinfo>
+            <onlink>https://www.nps.gov/im/vmi-NABR.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital vector data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20030101</begdate>
+              <enddate>20051231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NABR vegetation</srccitea>
+        <srccontr>These data were used to class the vegetation zones in Natural Bridges National Monument into generalized vegetation zones.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Travis W Nauman and Michael C Duniway</origin>
+            <pubdate>20200629</pubdate>
+            <title>Predictive soil property maps with prediction uncertainty at 30-meter resolution for the Colorado River Basin above Lake Mead</title>
+            <geoform>Raster data</geoform>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.5066/P9SK0DO2</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital raster data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20200101</begdate>
+              <enddate>20201231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Predictive soil property maps: Bulk density (oven dry), Clay content, Depth to top of first restrictive layer, Rock content (&gt;2mm), Sand content, and Silt content</srccitea>
+        <srccontr>These data were used to find a representative sample of points across the National Park units and as input data into the SOILWAT2 model.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2017</pubdate>
+            <title>National Elevation Dataset (NED) Elevation Derivatives for national applications (EDNA)</title>
+            <geoform>Raster data</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://earthexplorer.usgs.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital raster data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19230101</begdate>
+              <enddate>20141231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>30-meter DEM</srccitea>
+        <srccontr>These DEM data were used to create various topographic datasets (elevation, slope, eastness, and southness ) in developing the historical and projected future exposure metrics.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey and Matthew Rigge</origin>
+            <pubdate>2020</pubdate>
+            <title>National Land Cover Database (NLCD) 2016 Shrubland Fractional Components for the Western U.S.</title>
+            <geoform>Raster Digital Data Set</geoform>
+            <pubinfo>
+              <pubplace>Earth Resources Observation and Science Center, Sioux Falls, SD</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.5066/P9MJVQSQ</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>digital raster data</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20130515</begdate>
+              <enddate>20190925</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NLCD 2016 Shrubland, ver. 3.0, July 2020</srccitea>
+        <srccontr>These data were used as inputs into the SOILWAT2 model for percent cover of shrubs, forbs, litter and tree cover.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Sample selection: Thirty-meter resolution rasters were obtained for depth to restrictive layer, percent clay, percent sand, and percent rock fragment (Nauman and Duniway 2020). Elevation, slope, eastness, and southness were acquired Nauman and Duniway; however, these variables were derived from 30-meter DEM data (U.S. Geological Survey 2017) Cells with slopes equal or greater than thirty degrees and riparian vegetation types were filtered out. The conditioned Latin hypercube algorithm was used to select one point per square kilometer for each vegetation type, with a minimum of 25 points per vegetation type for each park. The conditioned Latin hypercube selection algorithm (Minasny and McBratney 2006) samples points representative of the distribution for each of the supplied attributes. This analysis was conducted over the course of 2020-2021.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Development of the ARCH, CANY, HOVE, NABR data:
+
+SOILWAT2 data inputs and model outputs: Daily soil moisture and ecohydrological variables were simulated using the SOILWAT2 ecosystem water-balance model (https://github.com/DrylandEcology/SOILWAT2). SOILWAT2 is a process-based daily simulation model that represents upland dryland ecosystems, including soils at multiple depths and vegetation as composed of multiple co-occurring plant types responsive to atmospheric CO2 concentrations. The code is available open-source as a set of R packages including rSOILWAT2 v4.0.0 (https://github.com/DrylandEcology/rSOILWAT2) and rSFSW2 v4.3.0 (https://github.com/DrylandEcology/rSFSW2).
+
+SOILWAT2 simulations were run for the 2,352 sites across all four SEUG park units for three time periods: 1980–2018, 1950–2005, and 2006–2099. Daily meteorological variables from the gridMET dataset (http://www.climatologylab.org/gridmet.html) were used to force SOILWAT2 simulations for the “observed” time period 1980–2018. Also used in the model were climate projections derived for CMIP5 from 20 global circulation models (GCMs) that were statistically downscaled to daily values with the multivariate adaptive constructed analog (MACA) method (Abatzoglou and Brown 2012, https://www.climatologylab.org/maca.html)relative to the gridMET dataset. Projections from the historical runs were used to force SOILWAT2 simulations for the period 1950–2005. Projections under two representative concentration pathways (RCPs)—the medium mitigation and stabilization scenario RCP4.5 and the high baseline, no-policy scenario RCP8.5 —were used as forcing for the period 2006–2099.		
+
+Additional inputs for SOILWAT2 include climate data, topographic information, soils information, and vegetation parameters. Monthly climate normals for wind speed, relative humidity, and sky cover were extracted from the NCEP/CFSR re-analysis (Saha et al, 2010), which contribute to the estimation of evaporative demand following Penman (1948). Elevation, slope, and slope aspect at each site were acquired from Nauman and Duniway and contribute to the estimation of daily tilted irradiation using the anisotropic transposition model HDKR with updates for daily integrated terms. Bulk density, volume of coarse rock fragments, and the proportions of sand, clay, and silt were obtained from Nauman and Duniway (2020). The soil profiles (soil depth) were linearly interpolated to 5-cm increments and then averaged for soil layers of 0-10-, 20-, 30-, 40-, 50-, 60-, 70-, 80-, 90-, 100-, 150-, 200-, and 250-cm depth unless soil depth was shallower. Vegetation cover was extracted based on National Land Cover Database Shrubland Fractional Components (U.S Geological Survey and Rigge 2020) for fractional cover of trees, shrubs, herbaceous, and annual herbaceous types. Estimates were made for each site and time period (i.e., depending on the daily meteorological forcing/downscaled climate projections) of the relative contribution of C3 and C4 grasses towards the herbaceous type as well as monthly biomass, litter, and root depth distributions from climate conditions for each vegetation type. 
+
+From daily SOILWAT2 output variables, including soil moisture at 13 soil layers, calculations were made for a range of time-series exposure metrics aggregated into four seasons (winter: December–February; spring: March–May; summer: June–August; fall: September–November) and two soil zones (top: 0–50 cm; whole profile: 0-soil depth) from inputs: precipitation, mean, minimum, and maximum air temperature, days below -1C, climate seasonality (monthly temperature-precipitation correlation), and from simulated outputs: potential evapotranspiration (PET), transpiration (T), evaporation (E), soil volumetric water content (VWC), soil water availability (SWA, soil moisture above -3.9 MPa), wet soil days (soil water potential (SWP) in any soil layer &gt; -1.5 MPa), dry soil days (SWP in all soil layers &lt; -3.9 MPa), SWA during not dry soil days (SWA on days with SWP in any soil layer &gt; -3.9 MPa), extreme short-term dry stress (mean daily maximum air temperature of the 10 hottest day when SWP of all soil layers &lt; -3.9 MPa), and semi-dry soil duration length (mean length of continuous days with SWP in all soil layers &lt; -1.5 MPa). Additionally, we calculated mean monthly normals from the inputs mean air temperature and precipitation sum and from the output soil water potential for each simulated soil layer.
+
+The output from SOILWAT2 for each of the stratified random points were then used to geographically represent the entire park unit. Mahalanobis distance from each stratified random point to other cells were found and the nearest neighbor was used to match each cell to a random point. For climate variables, the cell attributes of latitude, longitude, elevation, slope, and southness were used. For soil outputs, the variables latitude, longitude, elevation, percent sand, and percent clay were used to find cell similarity. The resulting maps provide park wide predictions of future soil and weather conditions on the fine scale.
+
+This analysis was conducted over the course of 2020-2021.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data Quality Assessment and Quality Control (QAQC): These data were created using a model (SOILWAT2) which has an established performance record in the published literature. The data fed into the model was acquired from published and accepted data sources. The resulting model outputs were checked for data quality by checking for outliers by viewing plots of the distributions of the data, viewing the data locations on maps, and checking the data for any missing values. Summary statistics of the data were produced to evaluate the distance of outliers from the mean and median for each, and the model was adjusted as necessary. Reviewing the results of the model within the context of the biotic and abiotic context such as seasonality, vegetation cover, emission scenario, time frame, etc. was used to make assurances that the data are complete and reasonable.</procdesc>
+        <procdate>2021</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Finalize Data for Dissemination: Data sent to the Southwest Biological Science Center Data Steward for dissemination and preservation per USGS Data Management Policies SM 502.6, SM 502.7, SM 502.8 and SM 502.9 (1 October 2016).</procdesc>
+        <procdate>2022</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.0174532925199433</latres>
+        <longres>0.0174532925199433</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>WGS_1984</horizdn>
+        <ellips>WGS 84</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ARCH_ClimExposure, CANY_ClimExposure, HOVE_ClimExposure, and NABR_ClimExposure data</enttypl>
+        <enttypd>These data represent the historical and projected future climate and ecological drought metrics, including annual and seasonal values, for two emission scenarios and 12 global circulation models for Arches National Park (Utah), Canyonlands National Park (Utah), Hovenweep National Monument (Colorado and Utah), and Natural Bridges National Monument (Utah). The purpose of these data are to quantify the magnitude and direction of change in climate metrics from historical baseline conditions at Arches National Park, Utah, and to inform land managers and practitioners in the Southeastern Utah Group of National Park Units the magnitude and direction of change in climate metrics at a scale useful to them. NA = not available.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Park</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the National Park unit name.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a textual code for the National Park Unit to assist in identifying its location; Arches National Park (ARCH), Canyonlands National Park (CANY), Hovenweep National Monument (HOVE), and Natural Bridges National Monument (NABR)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>long</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the longitude coordinate for the point, Datum in WGS84.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>The angular distance of the location of a point on the earth's surface, usually measured in degrees east or west of the Greenwich prime meridian.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lat</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the latitude coordinate for the point, Datum in WGS84.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>The angular distance of the location of a point on the earth's surface, usually measured in degrees north or south of the equator.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>veg</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the vegetation type for the sampled location.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Grassland</edomv>
+            <edomvd>A vegetation type characterised by the dominant plant lifeform being grasses</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Non-native</edomv>
+            <edomvd>A vegetation type characterised by the dominant plant lifeform being non-native vegetation</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Shrubland</edomv>
+            <edomvd>A vegetation type characterised by the dominant plant lifeform being shrubs</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Woodland</edomv>
+            <edomvd>A vegetation type characterised by the dominant plant lifeform being trees with an open canopy</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Forest</edomv>
+            <edomvd>A vegetation type characterised by the dominant plant lifeform being trees with a closed canopy</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the year for the datapoint.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1980</rdommin>
+            <rdommax>2099</rdommax>
+            <attrunit>integer number</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TimePeriod</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the time period for each data record.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Hist</edomv>
+            <edomvd>Historical or observed time period (1980-2018)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LT</edomv>
+            <edomvd>Long-Term time period (2060-2099)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NT</edomv>
+            <edomvd>Near-Term time period (2020-2059)</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RCP</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the representative concentration pathway.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>4.5</edomv>
+            <edomvd>data were modeled using representative concentration pathway of 4.5</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8.5</edomv>
+            <edomvd>data were modeled using representative concentration pathway of 8.5</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>historical</edomv>
+            <edomvd>observed data</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>scenario</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the general circulation model (GCM).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>sc1</edomv>
+            <edomvd>Current observed historical conditions</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc22</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - bcc-csm1-1</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc23</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - bcc-csm1-1-m</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc24</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - BNU-ESM</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc25</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - CanESM2</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc26</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - CCSM4</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc27</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - CNRM-CM5</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc28</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - CSIRO-Mk3-6-0</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc29</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - GFDL-ESM2G</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc30</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - GFDL-ESM2M</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc31</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - HadGEM2-CC365</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc32</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - HadGEM2-ES365</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc33</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - inmcm4</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc34</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - IPSL-CM5A-LR</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc35</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - IPSL-CM5A-MR</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc36</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - IPSL-CM5B-LR</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc37</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - MIROC-ESM</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc38</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - MIROC-ESM-CHEM</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc39</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - MIROC5</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc40</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - MRI-CGCM3</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc41</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP45 - NorESM1-M</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc42</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - bcc-csm1-1</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc43</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - bcc-csm1-1-m</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc44</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - BNU-ESM</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc45</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - CanESM2</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc46</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - CCSM4</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc47</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - CNRM-CM5</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc48</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - CSIRO-Mk3-6-0</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc49</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - GFDL-ESM2G</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc50</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - GFDL-ESM2M</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc51</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - HadGEM2-CC365</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc52</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - HadGEM2-ES365</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc53</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - inmcm4</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc54</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - IPSL-CM5A-LR</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc55</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - IPSL-CM5A-MR</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc56</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - IPSL-CM5B-LR</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc57</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - MIROC-ESM</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc58</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - MIROC-ESM-CHEM</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc59</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - MIROC5</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc60</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - MRI-CGCM3</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sc61</edomv>
+            <edomvd>representative concentration pathway and global circulation model scenario: RCP85 - NorESM1-M</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>treecanopy</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the percentage of tree canopy coverage.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a integer number for the percent coverage of tree canopy for this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ann_Herb</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the percentage of annual herbaceous coverage.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a integer number for the percent coverage of annual herbs for this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Bare</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the percentage of bare ground.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a integer number for the percent cover of bare ground for this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Herb</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the percent coverage of herbaceous plants.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a integer number for the percent herbaceous plant coverage for this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Litter</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the percent coverage of plant litter.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a integer number for the percent cover of litter for this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shrub</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the percent coverage of shrubs.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a integer number for the percent cover of shrubs for this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>El</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents elevation in meters.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number for the elevation for this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Sa</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the percent sand in the soil.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number for the percent sand in the soil for this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Cl</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the percent clay in the soil.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number for the percent clay in the soil for this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RF</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the percent rock fragment in the soil.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number for the percent rock fragment in the soil for this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RL</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the depth to restriction layer.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number for the depth to restriction layer at this location</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Slope</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the percent of slope. Slope gradient in degrees.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number for the slope angle at this location, scaling constant = 100</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>E</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the eastness aspect. Index of how east (10000) or west (-10000) a site faces</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number for the eastness aspect at this location, scaling constant = 10000</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the southness aspect. Index of how south (10000) or north (-10000) a site faces</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number for the southness aspect at this location, scaling constant = 10000</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_P_Corr</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the monthly temperature and precipitation correlation.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a unitless ratio for the pearsons correlation between monthly precipitation and average temperature across one (Dec-Nov) year</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DrySoilDays_Winter_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the dry soil days in the top 50 cm of soil during winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "dry" soil, defined as the top 50cm soil layers being "dry" (&lt;-3.9MPa) in winter</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DrySoilDays_Spring_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the dry soil days in the top 50 cm of soil during spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "dry" soil, defined as the top 50cm soil layers being "dry" (&lt;-3.9MPa) in spring</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DrySoilDays_Summer_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the dry soil days in the top 50 cm of soil during summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "dry" soil, defined as the top 50cm soil layers being "dry" (&lt;-3.9MPa) in summer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DrySoilDays_Fall_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the dry soil days in the top 50 cm of soil during fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "dry" soil, defined as the top 50cm soil layers being "dry" (&lt;-3.9MPa) in fall</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DrySoilDays_Winter_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the dry soil days in the entire soil profile during winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "dry" soil, defined as all soil layers being "dry" (&lt;-3.9MPa) in winter</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DrySoilDays_Spring_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the dry soil days in the entire soil profile during spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "dry" soil, defined as all soil layers being "dry" (&lt;-3.9MPa) in spring</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DrySoilDays_Summer_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the dry soil days in the entire soil profile during summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "dry" soil, defined as all soil layers being "dry" (&lt;-3.9MPa) in summer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DrySoilDays_Fall_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the dry soil days in the entire soil profile during fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "dry" soil, defined as all soil layers being "dry" (&lt;-3.9MPa) in fall</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Evap_Winter</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the evaporation during winter.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number in centimeters of evaporation in winter from soil, litter, canopy, surface water, and snowpack</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Evap_Spring</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the evaporation during spring.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number in centimeters of evaporation in spring from soil, litter, canopy, surface water, and snowpack</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Evap_Summer</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the evaporation during summer.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number in centimeters of evaporation in summer from soil, litter, canopy, surface water, and snowpack</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Evap_Fall</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the evaporation during fall.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>a decimal number in centimeters of evaporation in fall from soil, litter, canopy, surface water, and snowpack</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ExtremeShortTermDryStress_Winter_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the extreme short term dry stress for the top 50 cm of soil in the winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>maximum temperature, degrees Celsius, of the 10 hottest days when the top 50cm of soil layers are "semi-dry" (&lt;-1.5MPa) in the winter</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ExtremeShortTermDryStress_Spring_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the extreme short term dry stress for the top 50 cm of soil in the spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>maximum temperature, degrees Celsius, of the 10 hottest days when the top 50cm of soil layers are "semi-dry" (&lt;-1.5MPa) in the spring</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ExtremeShortTermDryStress_Summer_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the extreme short term dry stress for the top 50 cm of soil in the summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>maximum temperature, degrees Celsius, of the 10 hottest days when the top 50cm of soil layers are "semi-dry" (&lt;-1.5MPa) in the summer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ExtremeShortTermDryStress_Fall_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the extreme short term dry stress for the top 50 cm of soil in the fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>maximum temperature, degrees Celsius, of the 10 hottest days when the top 50cm of soil layers are "semi-dry" (&lt;-1.5MPa) in the fall</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ExtremeShortTermDryStress_Winter_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the extreme short term dry stress for the entire soil profile in the winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>maximum temperature, degrees Celsius, of the 10 hottest days when the entire soil profile is "semi-dry" (&lt;-1.5MPa) in the winter</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ExtremeShortTermDryStress_Spring_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the extreme short term dry stress for the entire soil profile in the spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>maximum temperature, degrees Celsius, of the 10 hottest days when the entire soil profile is "semi-dry" (&lt;-1.5MPa) in the spring</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ExtremeShortTermDryStress_Summer_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the extreme short term dry stress for the entire soil profile in the summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>maximum temperature, degrees Celsius, of the 10 hottest days when the entire soil profile is "semi-dry" (&lt;-1.5MPa) in the summer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ExtremeShortTermDryStress_Fall_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the extreme short term dry stress for the entire soil profile in the fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>maximum temperature, degrees Celsius, of the 10 hottest days when the entire soil profile is "semi-dry" (&lt;-1.5MPa) in the fall</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FrostDays_Winter</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the count of frost days in the winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days below -1C in winter</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FrostDays_Spring</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the count of frost days in the spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days below -1C in spring</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FrostDays_Summer</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the count of frost days in the summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days below -1C in summer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FrostDays_Fall</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the count of frost days in the fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days below -1C in fall</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NonDrySWA_Winter_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the non-dry soil water availibility in the top 50cm of soil during winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean soil water availibility during days with the top 50cm of soil &gt;-3.9MPa during winter in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NonDrySWA_Spring_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the non-dry soil water availibility in the top 50cm of soil during spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean soil water availibility during days with the top 50cm of soil &gt;-3.9MPa during spring in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NonDrySWA_Summer_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the non-dry soil water availibility in the top 50cm of soil during summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean soil water availibility during days with the top 50cm of soil &gt;-3.9MPa during summer in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NonDrySWA_Fall_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the non-dry soil water availibility in the top 50cm of soil during fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean soil water availibility during days with the top 50cm of soil &gt;-3.9MPa during fall in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NonDrySWA_Winter_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the non-dry soil water availibility during winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean soil water availibility during days with the soil &gt;-3.9MPa during winter in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NonDrySWA_Spring_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the non-dry soil water availibility during spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean soil water availibility during days with the soil &gt;-3.9MPa during spring in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NonDrySWA_Summer_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the non-dry soil water availibility during summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean soil water availibility during days with the soil &gt;-3.9MPa during summer in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NonDrySWA_Fall_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the non-dry soil water availibility during fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean soil water availibility during days with the soil &gt;-3.9MPa during fall in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PET_Winter</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the potential evapotranspiration in winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of evaporation and transpiration that would occur with no moisture limitation in winter in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PET_Spring</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the potential evapotranspiration in spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of evaporation and transpiration that would occur with no moisture limitation in spring in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PET_Summer</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the potential evapotranspiration in summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of evaporation and transpiration that would occur with no moisture limitation in summer in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PET_Fall</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the potential evapotranspiration in fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of evaporation and transpiration that would occur with no moisture limitation in fall in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PPT_Winter</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the precipitation in winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>sum of the precipitation received in winter in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PPT_Spring</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the precipitation in spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>sum of the precipitation received in spring in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PPT_Summer</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the precipitation in summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>sum of the precipitation received in summer in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PPT_Fall</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the precipitation in fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>sum of the precipitation received in fall in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PPT_Annual</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the precipitation annually</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>sum of the precipitation received annuallyl in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SemiDryDuration_Annual_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the duration of the soil being semi-dry during the entire year in the top 50cm of soil</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>annual (Dec-Nov) mean length of continuous days with the top 50cm &lt;-1.5MPa</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SemiDryDuration_Annual_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the duration the whole soil profile is dry across an entire year</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>annual (Dec-Nov) mean length of continuous days with all soil layers &lt;-1.5MPa</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SWA_Winter_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the soil water availibility in the top 50 cm of soil during winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of water available in soil to plants (above -3.9MPa) in the top 50cm of soil during winter in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SWA_Spring_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the soil water availibility in the top 50 cm of soil during spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of water available in soil to plants (above -3.9MPa) in the top 50cm of soil during spring in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SWA_Summer_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the soil water availibility in the top 50 cm of soil during summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of water available in soil to plants (above -3.9MPa) in the top 50cm of soil during summer in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SWA_Fall_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the soil water availibility in the top 50 cm of soil during fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of water available in soil to plants (above -3.9MPa) in the top 50cm of soil during fall in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SWA_Winter_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the soil water availibility in the whole soil profile during winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of water available in soil to plants (above -3.9MPa) in the entire soil profile during winter in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SWA_Spring_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the soil water availibility in the whole soil profile during spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of water available in soil to plants (above -3.9MPa) in the entire soil profile during spring in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SWA_Summer_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the soil water availibility in the whole soil profile during summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of water available in soil to plants (above -3.9MPa) in the entire soil profile during summer in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SWA_Fall_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the soil water availibility in the whole soil profile during fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>amount of water available in soil to plants (above -3.9MPa) in the entire soil profile during fall in total centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_Winter</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the temperature in winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean temperature, degrees Celsius, in winter</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_Spring</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the temperature in spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean temperature, degrees Celsius, in spring</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_Summer</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the temperature in summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean temperature, degrees Celsius, in summer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_Fall</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the temperature in fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean temperature, degrees Celsius, in fall</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_Annual</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the temperature annually</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>mean temperature, degrees Celsius, annually</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tmax_Winter</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the maximum temperature in winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>highest maximum temperature, degrees Celsius, in winter</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tmax_Spring</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the maximum temperature in spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>highest maximum temperature, degrees Celsius, in spring</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tmax_Summer</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the maximum temperature in summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>highest maximum temperature, degrees Celsius, in summer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tmax_Fall</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the maximum temperature in fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>highest maximum temperature, degrees Celsius, in fall</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tmin_Winter</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the minimum temperature in winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>lowest minimum temperature, degrees Celsius, in winter</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tmin_Spring</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the minimum temperature in spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>lowest minimum temperature, degrees Celsius, in spring</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tmin_Summer</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the minimum temperature in summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>lowest minimum temperature, degrees Celsius, in summer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Tmin_Fall</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the minimum temperature in fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>lowest minimum temperature, degrees Celsius, in fall</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Transp_Winter</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the transpiration in winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>total transpiration in winter in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Transp_Spring</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the transpiration in spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>total transpiration in spring in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Transp_Summer</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the transpiration in summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>total transpiration in summer in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Transp_Fall</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the transpiration in fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>total transpiration in fall in centimeters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VWC_Winter_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the volumetric water content in the top 50cm of soil during winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>median volumetric water content in the top 50cm of soil during winter in m^3 / m^3</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VWC_Spring_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the volumetric water content in the top 50cm of soil during spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>median volumetric water content in the top 50cm of soil during spring in m^3 / m^3</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VWC_Summer_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the volumetric water content in the top 50cm of soil during summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>median volumetric water content in the top 50cm of soil during summer in m^3 / m^3</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VWC_Fall_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the volumetric water content in the top 50cm of soil during fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>median volumetric water content in the top 50cm of soil during fall in m^3 / m^3</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VWC_Winter_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the volumetric water content in the whole soil profile during winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>median volumetric water content in the whole soil profile during winter in m^3 / m^3</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VWC_Spring_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the volumetric water content in the whole soil profile during spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>median volumetric water content in the whole soil profile during spring in m^3 / m^3</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VWC_Summer_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the volumetric water content in the whole soil profile during summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>median volumetric water content in the whole soil profile during summer in m^3 / m^3</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VWC_Fall_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the volumetric water content in the whole soil profile during fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>median volumetric water content in the whole soil profile during fall in m^3 / m^3</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WetSoilDays_Winter_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the count of days with "wet" soil, defined as any layer in the top 50cm of soil being "wet" (&gt;-1.5MPa) during winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>number of wet soil days from the top 50cm of soil during winter</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WetSoilDays_Spring_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the count of days with "wet" soil, defined as any layer in the top 50cm of soil being "wet" (&gt;-1.5MPa) during spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>number of wet soil days from the top 50cm of soil during spring</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WetSoilDays_Summer_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the count of days with "wet" soil, defined as any layer in the top 50cm of soil being "wet" (&gt;-1.5MPa) during summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>number of wet soil days from the top 50cm of soil during summer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WetSoilDays_Fall_top50</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the count of days with "wet" soil, defined as any layer in the top 50cm of soil being "wet" (&gt;-1.5MPa) during fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>number of wet soil days from the top 50cm of soil during fall</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WetSoilDays_Winter_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the number of wet soil days during winter</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "wet" soil, defined as any soil layer being "wet" (&gt;-1.5MPa) during winter</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WetSoilDays_Spring_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the number of wet soil days during spring</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "wet" soil, defined as any soil layer being "wet" (&gt;-1.5MPa) during spring</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WetSoilDays_Summer_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the number of wet soil days during summer</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "wet" soil, defined as any soil layer being "wet" (&gt;-1.5MPa) during summer</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WetSoilDays_Fall_whole</attrlabl>
+        <attrdef>This attribute (column name) in the data table represents the number of wet soil days during fall</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <udom>count of days with "wet" soil, defined as any soil layer being "wet" (&gt;-1.5MPa) during fall</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>U.S. Geological Survey - ScienceBase</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>The author(s) of these data request that data users contact them regarding intended use and to assist with understanding limitations and interpretation. Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <techpreq>These data are in American Standard Code for Information Interchange format (txt) with columns separated by spaces. The user must have software capable of reading machine-readable tabular data. To convert these data to a raster grid, the latitude (lat) and longitude (long) corrdinates represent the center of a 30 meter resolution grid cell. Geographic Coordinate System: GCS_WGS_1984, Datum: D_WGS_1984, EPSG: 4326 Authority, https://epsg.io/4326.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20220302</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jessica (Contractor) A Hartsell</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Affiliate</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2255 North Gemini Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>928-523-7766</cntvoice>
+        <cntemail>jhartsell@contractor.usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

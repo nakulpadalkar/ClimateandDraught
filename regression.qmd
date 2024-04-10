@@ -1,0 +1,48 @@
+
+
+## Importing Necessary Liberaries
+
+```{python}
+import pandas as pd
+import plotly.express as px
+```
+
+## Load the dataset
+```{python}
+# Load the dataset
+df = pd.read_csv('./processed_data/NABR_historic.csv')
+df.drop(columns=['TimePeriod', 'RCP'], axis=1, inplace=True)
+df.head()
+```
+
+### Missing Values and Data Types
+```{python}
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Visualize missing values
+plt.figure(figsize=(15, 10))
+sns.heatmap(df.drop(columns=['lat', 'long', 'year', 'scenario','treecanopy', 'Ann_Herb', 'Bare', 'Litter', 'Shrub'], axis=1).isnull(), cbar=False, cmap='viridis')
+plt.title('Missing Data Heatmap', fontsize=16, fontweight='bold', loc='left')
+plt.xticks(rotation=45) 
+plt.show()
+```
+
+## Data Preprocessing
+# Assuming 'lat' and 'long' are the column names for latitude and longitude in your dataset
+# Creating an interactive map to visualize the park location
+fig = px.scatter_geo(df,
+                     lat='lat',
+                     lon='long',
+                     scope='usa',
+                     title='Utah National Parks Geographic Overview')
+fig.update_geos(projection_type="natural earth")
+fig.update_layout(showlegend=True)
+fig.show()
+
+# For the initial EDA on climate variables vs. vegetation coverage
+# Let's create scatter plots for each climate variable against vegetation cover
+# Replace 'vegetation_cover' with the actual column name for vegetation cover in your dataset
+for column in ['soil_moisture', 'temperature', 'precipitation']:
+    fig = px.scatter(df, x=column, y='vegetation_cover', title=f'Vegetation Cover vs. {column.capitalize()}')
+    fig.show()

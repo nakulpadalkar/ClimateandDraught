@@ -1,0 +1,42 @@
+In Southeast Utah's majestic landscapes, a challenge of climate change looms, threatening the diverse ecosystems of its national parks. Spearheaded by a dedicated team, a strategy unfolds to address this, blending scientific rigor with community action.
+
+## The Mission
+
+Climate change poses a triad of outcomes for the region's flora and fauna: adapt, migrate, or perish. Initiatives like the Climate Change Workshop have set the stage for a unified response, aiming to chart a resilient path forward for Arches, Canyonlands, Hovenweep, and Natural Bridges.
+
+## The Strategy: Climate Smart Conservation
+
+This approach simplifies the adaptation planning process, focusing on quantifying expected changes, understanding aridification effects, and implementing ecological forecasting. It’s a call to action for all, especially students, to join in research and conservation efforts.
+
+## Student Engagement
+
+### Regression Analysis
+Predicting Vegetation Change: How do variations in soil moisture, temperature, and precipitation predict changes in grassland, shrubland, and pinyon-juniper woodland coverage over time? Use regression models to quantify the relationship between climate factors and vegetation cover in different ecosystems.
+
+Temperature and Aridification: Can we predict the future state of aridification in the parks' ecosystems based on current and historical temperature trends? Develop a regression model to forecast the degree of aridification using temperature data.
+
+### Classification
+Drought Risk Assessment: Based on soil moisture levels, precipitation data, and historical climate conditions, classify regions within the parks into different drought risk categories (low, medium, high). Utilize machine learning classification methods to categorize areas according to their vulnerability to drought.
+
+Ecosystem Sensitivity Classification: Given data on ecosystem exposure to climate change, sensitivity, and adaptive capacity, classify ecosystems into vulnerability categories. Explore which ecosystems are most at risk and identify factors contributing to their vulnerability.
+
+### Data Visualization
+Visualizing Climate Impacts: Create interactive visualizations that show the temporal and spatial patterns of climate change impacts on the parks. Visualizations should include maps highlighting changes in vegetation cover, graphs depicting temperature and precipitation trends, and diagrams illustrating soil moisture variations.
+
+Ecosystem Response Mapping: Develop a series of maps that display the response of different vegetation communities to changing climate conditions. Highlight areas of significant change and those with high resilience or vulnerability.
+
+Soil-Climate Interaction: Illustrate how soil types and climatic conditions interact to affect vegetation distribution across the Colorado Plateau. Use data on soil moisture, soil type, and vegetation cover to create visualizations that explain these complex relationships.
+
+Implementing the Research Questions
+These questions serve as a starting point for students to engage deeply with climate change data and its implications for natural resource management. By tackling these questions, students will:
+
+Apply statistical and machine learning techniques to analyze and interpret complex datasets.
+Utilize data visualization tools to communicate findings effectively.
+Gain insights into the challenges and strategies of climate adaptation planning in protected areas.
+Contribute to the body of knowledge supporting conservation efforts in the face of climate change.
+
+## The Call to Action
+
+As we delve into these research questions, we’re not just seeking answers but also actionable insights to guide conservation strategies. It’s a journey of discovery, collaboration, and commitment to safeguarding the natural splendor of Southeast Utah’s national parks for the future.
+
+This effort is more than a mission; it's a movement towards sustainable conservation, inviting students and the community to contribute to a legacy of environmental stewardship.

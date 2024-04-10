@@ -1,0 +1,44 @@
+/* css styles */
+:root {
+    --sandstone: #E4CDA7; /* Warm, neutral tone of sandstone */
+    --rose-quartz: #F7CAC9; /* Soft, warm pink of rose quartz */
+    --marble-gray: #BDC3C7; /* Cool, sophisticated gray of marble */
+    --marble-vein: #707B7C; /* Dark gray, almost black, of marble veins */
+    --sunset-glow: #F4D03F; /* Vibrant yellow mirroring the desert sunset */
+    --canyon-red: #CB4335; /* Deep red reminiscent of canyon walls */
+    --desert-green: #85929E; /* Subdued green, reflecting sparse desert vegetation */
+}
+
+body {
+    background-color: var(--sandstone);
+    color: var(--marble-vein);
+}
+
+a, .highlight {
+    color: var(--canyon-red);
+}
+
+header, footer {
+    background-color: var(--rose-quartz);
+    color: var(--marble-gray);
+}
+
+.navbar, .menu {
+    background-color: var(--desert-green);
+    color: var(--sandstone);
+}
+
+.button, .cta { /* Call to Action */
+    background-color: var(--sunset-glow);
+    color: var(--marble-vein);
+}
+
+.card, .info-box {
+    background-color: var(--marble-gray);
+    color: var(--marble-vein);
+}
+
+.card-header, .info-title {
+    background-color: var(--rose-quartz);
+    color: var(--marble-vein);
+}

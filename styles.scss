@@ -1,0 +1,86 @@
+// Updated variables for a lighter, whitish theme
+$color-background: #FAFAFA; // A very light gray, almost white, for the background
+$color-card-background: #FFFFFF; // Pure white for cards and info boxes
+
+// Retaining the other color and font variables for consistency
+$font-family-headings: 'Roboto Slab', serif;
+$font-family-body: 'Open Sans', sans-serif;
+
+$font-weight-bold: 700;
+$font-weight-regular: 400;
+$font-weight-light: 300;
+
+/*-- scss:defaults --*/
+$font-family-headings: 'Roboto Slab', serif;
+$font-family-body: 'Open Sans', sans-serif;
+$font-weight-bold: 700;
+$font-weight-regular: 400;
+$font-weight-light: 300;
+$color-background: #FAFAFA;
+$color-card-background: #FFFFFF;
+$color-desert-red: #C14A09;
+$color-sandstone: #E8B989;
+$color-sage-green: #73877B;
+$color-sky-blue: #7DA9B7;
+$color-canyon-shadow: #504136;
+$color-sunset: #F2C14E;
+$color-pine-green: #0A5E2A;
+$color-navbar: #FFFFFF; // White color for the navbar
+$color-button-text: $color-canyon-shadow; // Text color for buttons, ensuring good contrast on white
+
+/*-- scss:mixins --*/
+@mixin button-styles {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: $font-weight-regular;
+  background-color: $color-sage-green; // Using sage green for button background for a nature-inspired look
+  color: $color-button-text;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+/*-- scss:rules --*/
+body {
+  font-family: $font-family-body;
+  font-weight: $font-weight-regular;
+  line-height: 1.6;
+  background-color: $color-background;
+  color: $color-canyon-shadow;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+// Heading styles
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-headings;
+  margin: 0.5em 0;
+}
+
+h1 { font-weight: $font-weight-bold; font-size: 2.5em; }
+h2 { font-weight: $font-weight-bold; font-size: 2em; }
+h3 { font-weight: $font-weight-regular; font-size: 1.75em; }
+h4, h5, h6 { font-weight: $font-weight-light; }
+
+.navbar, .menu {
+  background-color: $color-navbar; // White background for the navbar
+  color: $color-canyon-shadow; // Text color for contrast
+}
+
+.button, .cta {
+  @include button-styles; // Apply button styles mixin
+}
+
+.card, .info-box {
+  background-color: $color-card-background;
+  color: $color-canyon-shadow;
+}
+
+.card-header, .info-title {
+  background-color: $color-desert-red;
+  color: $color-sandstone;
+}
